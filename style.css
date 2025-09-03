@@ -8,9 +8,12 @@ body {
 
 header {
   background: #1565c0;
-  color: white;
-  padding: 1rem;
+  color: #fff;
+  padding: 1.5rem;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 footer {
