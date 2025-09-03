@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   button.addEventListener('click', () => {
     if (name.textContent === "Manuela Soares Pacheco") {
-      name.textContent = "Manoel Osorio Pachico";
+      name.textContent = "Frutinhas";
     } else {
       name.textContent = "Manuela Soares Pacheco";
     }
