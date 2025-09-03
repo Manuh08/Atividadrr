@@ -1,17 +1,1 @@
-.images {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin: 2rem 1rem;
-}
-
-.images img {
-  width: 150px;       /* define o tamanho máximo desejado */
-  height: auto;       /* mantém proporção da imagem */
-  max-width: 100%;    /* garante que não ultrapasse o container */
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-}
+body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 0; color: #333; } header { background: #1565c0; color: white; padding: 1rem; text-align: center; } footer { background: #eee; padding: 0.5rem; text-align: center; } .images { display: flex; gap: 10px; justify-content: center; margin-top: 1rem; } .images img { width: 30%; border-radius: 8px; }
